@@ -1,3 +1,7 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+}
+
 .header {
     background-color: #f8e1db;
     padding: 15px 0 15px 50px;
@@ -5,4 +9,38 @@
     padding-left: 50px;
     padding-bottom: 10; */
 
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu li {
+    /* Nằm trong cùng 1 dòng */
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.carousel {
+    /* height: 10px; */
+    width: 10px;
+    /* background-position: center;
+    /* background-size: cover; */
+
+    /* text-align: center;
+    /* height bao nhieu, line height bay nhieu */
+    /* line-height: 700px; */
+    /* color: white; */
+    
+}
+
+.contact {
+    background-color: red;
+    text-align: center;
+}
+
+.contact_us {
+    color: orange;
+    font-size: 25px;
+    margin-right: 10px;
 }
