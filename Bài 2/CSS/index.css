@@ -1,46 +1,41 @@
-body{
-    background-color: hsl(0, 0%, 90%);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+html, body{
+    color: #8d8d8d;
+    background-color: #faf4f2;
+}
+
+/* Header */
 .header {
     background-color: #f8e1db;
-    padding: 15px 0 15px 50px;
-    /* padding-top: 10px;
-    padding-left: 50px;
-    padding-bottom: 10; */
-
+    padding: 10px 70px;
 }
-
-.menu {
+.header ul {
+    list-style: none;
     margin-top: 10px;
 }
-
-.menu li {
-    /* Nằm trong cùng 1 dòng */
-    display: inline; 
-    margin-right: 20px; 
+.header ul a {
+    text-decoration: none;
+    color: #3b3735;
+    font-size: 18px;
 }
-
+.header li {
+    display: inline;
+    margin-right: 40px;
+}
+.header .active a{
+    color: #e76f51;
+}
+/* Carousel */
 .carousel {
-    /* height: 10px; */
-    width: 10px;
-    /* background-position: center;
-    /* background-size: cover; */
+    background-image: url(../image/BG.png);
+    /* Luôn phải có chiều cao hình mới xuất hiện */
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 
-    /* text-align: center;
-    /* height bao nhieu, line height bay nhieu */
-    /* line-height: 700px; */
-    /* color: white; */
-    
-}
-
-.contact {
-    background-color: red;
-    text-align: center;
-}
-
-.contact_us {
-    color: orange;
-    font-size: 25px;
-    margin-right: 10px;
 }
