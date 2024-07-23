@@ -37,7 +37,7 @@ html, body{
 .carousel {
     background-image: url(../image/BG.png);
     /* Luôn phải có chiều cao hình mới xuất hiện */
-    height: 600px;
+    height: 900px;
     background-position: center;
     background-size: cover;
 }
