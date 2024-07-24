@@ -30,14 +30,14 @@ html, body{
     display: inline;
     margin-right: 40px;
 }
-.header .active a{
+.header .active a {
     color: #e76f51;
 }
 /* Carousel */
 .carousel {
     background-image: url(../image/BG.png);
     /* Luôn phải có chiều cao hình mới xuất hiện */
-    height: 900px;
+    height: 800px;
     background-position: center;
     background-size: cover;
 }
