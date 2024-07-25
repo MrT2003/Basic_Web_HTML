@@ -8,3 +8,7 @@ $(document).ready(function(){
         autoplaySpeed: 4000,
     });
 });
+
+$('[data-fancybox="Gallery"]').fancybox({
+    loop: true
+});

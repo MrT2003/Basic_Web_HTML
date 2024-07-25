@@ -1,89 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meipaly</title>
 
     <!-- CSS -->
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Slider -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <!-- FancyBox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.0/dist/fancybox.css">
+  </head>
+  <body>
     <header>
-        <div class="header_content">
-            <a href="#" class="header_logo">
-                <i class="fa-brands fa-atlassian"></i>
-                <span>Meipaly</span>
-            </a>
-            <nav>
-                <ul>
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">SHOWCASE</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="header_content">
+        <a href="#" class="header_logo">
+          <i class="fa-brands fa-atlassian"></i>
+          <span>Meipaly</span>
+        </a>
+        <nav>
+          <ul>
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">SHOWCASE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <section class="carousel">
-        <section class="carousel_content">
-            <p>WELCOME TO MEIPALY AGENCY</p>
-            <h1>SMART WEB<br>DESIGN AGENCY</h1>
-            <button>READ MORE</button>
-            <div class="carousel_scroll">
-                <i class="fa-solid fa-chevron-down"></i>
-            </div>
-        </section>
+      <section class="carousel_content">
+        <p>WELCOME TO MEIPALY AGENCY</p>
+        <h1>SMART WEB<br />DESIGN AGENCY</h1>
+        <button>READ MORE</button>
+        <div class="carousel_scroll">
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </section>
     </section>
     <section class="service">
-        <div class="service_content">
-            <div class="title">
-                <p>SERVICES WE ARE OFFERING</p>
-                <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES</h2>
-                <P>We are commited to providing our customers with exceptional service while offering<br>our employees the best training.</P>
-            </div>
+      <div class="service_content">
+        <div class="title">
+          <p>SERVICES WE ARE OFFERING</p>
+          <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES</h2>
+          <p>
+            We are committed to providing our customers with exceptional service
+            while offering<br />our employees the best training.
+          </p>
         </div>
-        <div class="service_slider">
-            <div class="slick_content">
-                <div class="item">
-                    <i class="fa-solid fa-dice-d6"></i>
-                    <p>APP MOBILE<br>DEVELOPMENT</p>
-                </div>
-                <div class="item">
-                    <i class="fa-brands fa-autoprefixer"></i>
-                    <p>DIGITAL<br>MARKETING</p>
-                </div>
-                <div class="item">
-                    <i class="fa-brands fa-500px"></i>
-                    <p>SEO &amp; CONTENT <br>WRITING</p>
-                </div>
-                <div class="item">
-                    <i class="fa-solid fa-blog"></i>
-                    <p>WEBSITE<br>DEVELOPMENT</p>
-                </div>
-                <div class="item">
-                    <i class="fa-brands fa-battle-net"></i>
-                    <p>SEO &amp; CONTENT <br>WRITING</p>
-                </div>
-                <div class="item">
-                    <i class="fa-solid fa-memory"></i>
-                    <p>APP MOBILE<br>DEVELOPMENT</p>
-                </div>
-            </div>
+      </div>
+      <div class="service_slider">
+        <div class="slick_content">
+          <div class="item">
+            <i class="fa-solid fa-dice-d6"></i>
+            <p>APP MOBILE<br />DEVELOPMENT</p>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-autoprefixer"></i>
+            <p>DIGITAL<br />MARKETING</p>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-500px"></i>
+            <p>SEO &amp; CONTENT <br />WRITING</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-blog"></i>
+            <p>WEBSITE<br />DEVELOPMENT</p>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-battle-net"></i>
+            <p>SEO &amp; CONTENT <br />WRITING</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-memory"></i>
+            <p>APP MOBILE<br />DEVELOPMENT</p>
+          </div>
         </div>
+      </div>
     </section>
-    <section class="blog"></section>
+    <section class="blog">
+      <div class="blog_title">
+        <p>OUR NEWS & ARTICLES</p>
+        <h2>LATEST BLOG POSTS</h2>
+        <p>
+          We are committed to providing our customers with exceptional service
+          while offering<br />our employees the best training.
+        </p>
+      </div>
+      <div class="blog_content">
+        <div class="blog_item blog_metro1">
+          <img src="./img/grid-metro-1.jpg" alt="metro" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-1.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #1"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-2.jpg" alt="metro2" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-2.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #2"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog_item">
+          <img src="./img/grid-metro-3.jpg" alt="metro3" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-3.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #3"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-2.jpg" alt="metro2" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-2.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #2"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-3.jpg" alt="metro3" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-3.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #3"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-4.jpg" alt="metro4" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-4.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #4"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-5.jpg" alt="metro5" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-5.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #5"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-6.jpg" alt="metro6" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-6.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #6"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-7.jpg" alt="metro7" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-7.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #7"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-8.jpg" alt="metro8" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-8.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #8"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item">
+          <img src="./img/grid-metro-9.jpg" alt="metro9" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-9.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #9"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blog_item blog_metro10">
+          <img src="./img/grid-metro-10.jpg" alt="metro10" />
+          <div class="blog_overlay">
+            <div class="blog_icons">
+              <a
+                href="./img/grid-metro-10.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #10"
+              >
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </a>
+            </div>
+            <div class="blog_text">
+              <p>LOGO</p>
+              <h3>FLIPPIN BIRD</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="number"></section>
     <section class="experience"></section>
     <section class="contact"></section>
@@ -91,7 +338,11 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Slick JS -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.0/dist/fancybox.umd.js"></script>
     <script src="/Bài 3/js/script.js"></script>
-</body>
+  </body>
 </html>
