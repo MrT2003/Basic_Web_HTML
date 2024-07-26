@@ -111,19 +111,20 @@ header {
   text-align: center;
   padding: 90px 0;
 }
-.title {
+/* service_title  */
+.service_title {
   text-align: center;
 }
-.title p:first-of-type {
+.service_title p:first-of-type {
   font-size: 14px;
   color: #e62b4a;
   font-weight: 300;
 }
-.title h2 {
+.service_title h2 {
   font-size: 50px;
   font-weight: 400;
 }
-.title p:last-of-type {
+.service_title p:last-of-type {
   font-size: 16px;
   color: #888888;
   font-weight: 700;
@@ -135,18 +136,17 @@ header {
   letter-spacing: 1px;
   /* background-color: purple; */
 }
+/* Service_slider */
 .service_slider {
   margin-top: 20px;
+  /* background-color: red; */
 }
-.slider_content {
-  display: flex;
-  text-align: center;
-}
-.slick_content .item {
+.service_slider .item {
   width: 214px;
   height: 230px;
   background-color: white;
   color: #848482;
+  /* Nghi Vấn */
   text-align: center;
   margin: 10px;
 
@@ -154,6 +154,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 60px;
 
   position: relative;
 }
@@ -169,31 +170,30 @@ header {
   height: 0;
   width: 5px;
   background-color: #e62b4a;
-  /* display: block; */
+  display: block;
 
   position: absolute;
   top: 0;
   right: 0;
   transition: all 0.2s linear;
 }
-.slick_content .item:hover::after {
+.service_slider .item:hover::after {
   height: 100%;
 }
-.slider_content .item i {
-  font-size: 50px;
+.slick_content .slick-dots li button::before {
+  color: #ffffff;
+  font-size: 14px;
 }
-.slick-dots li button::before {
-  color: gray;
-  font-size: 15px;
-}
-.slick-dots li button:hover::before {
+.slick_content .slick-dots li.slick-active button:before {
   color: red;
-  cursor: pointer;
-  transition: all 0.5s;
+
 }
 /* Thua */
 
 /* Blog */
+.blog_title {
+  text-align: center;
+}
 .blog_title p:first-of-type {
   color: grey;
   font-size: 16px;
@@ -209,22 +209,27 @@ header {
   font-weight: bold;
   margin-top: 12px;
 }
+/* Blog_content */
+.blog {
+  margin: 200px 0 100px;
+  /* background-color: aquamarine; */
+
+}
 .blog_content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4,1fr);
   gap: 30px;
 
-  /* width: 75%; */
+  width: 75%;
   margin: 50px auto 0;
 }
 .blog_item img {
   width: 100%;
   height: 100%;
-  /* filter: grayscale(50%) contrast(50%); */
-  filter: grayscale(50%);
+  filter: grayscale(50%) contrast(50%);
   object-fit: cover;
 
-  /* transition: all 0.5s; */
+  transition: all 0.5s;
 }
 .blog_metro1 {
   grid-column: 1 / span 2;
@@ -236,8 +241,9 @@ header {
 }
 .blog_item {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
+/* Overlay */
 .blog_overlay {
   background-color: rgba(230, 43, 74, 0.6);
   position: absolute;
@@ -254,7 +260,7 @@ header {
 }
 .blog_icons {
   position: absolute;
-  /* top: 25px; */
+  top: 25px;
   right: 25px;
 }
 .blog_text {
@@ -268,19 +274,16 @@ header {
   transform: translateY(0);
 }
 .blog_icons i {
-  /* width: 35px;
+  width: 35px;
   height: 35px;
   line-height: 35px;
   text-align: center;
   background-color: #ffffff;
   font-size: 14px;
+  color: black;
   margin-bottom: 10px;
   transform: translateY(20px);
-  transition: all 0.8s; */
-  background-color: white;
-  padding: 10px;
-  transition: all 0.5s;
-  transform: translateY(40px);
+  transition: all 0.8s;
 }
 .blog_item:hover .blog_icons i {
   transform: translateY(0);
@@ -289,8 +292,17 @@ header {
   background-color: #000;
   color: #ffffff;
 }
+.blog_text {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  transform: translateY(20px);
+}
 .blog_text p {
   color: #d0c7c8;
+}
+.blog_item:hover .blog_text {
+  transform: translateY(0);
 }
 /* Thua */
 /* NUMBER */
