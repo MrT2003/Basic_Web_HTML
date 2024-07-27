@@ -182,15 +182,14 @@ header {
 .service_slider .item:hover::after {
   height: 100%;
 }
+/* .slick-dots */
 .slick_content .slick-dots li button::before {
   color: #ffffff;
   font-size: 14px;
 }
 .slick_content .slick-dots li.slick-active button:before {
   color: red;
-
 }
-/* Thua */
 
 /* Blog */
 .blog_title {
@@ -215,7 +214,6 @@ header {
 .blog {
   margin: 200px 0 100px;
   /* background-color: aquamarine; */
-
 }
 .blog_content {
   display: grid;
@@ -224,6 +222,7 @@ header {
 
   width: 75%;
   margin: 50px auto 0;
+
 }
 .blog_item img {
   width: 100%;
@@ -270,7 +269,7 @@ header {
   left: 25px;
   bottom: 25px;
   transform: translateY(20px);
-  /* transition: all 0.8s; */
+  transition: all 0.8s;
 }
 .blog_item:hover .blog_text {
   transform: translateY(0);
@@ -306,7 +305,6 @@ header {
 .blog_item:hover .blog_text {
   transform: translateY(0);
 }
-/* Thua */
 /* NUMBER */
 .number {
   background-color: black;
@@ -335,7 +333,7 @@ header {
   color: #888888;
   font-size: 20px;
 }
-/* WIN  */
+
 /* Experience */
 .experience {
   background-image: url(../img/bussiness_img_1.jpg);
