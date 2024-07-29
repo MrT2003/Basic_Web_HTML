@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Hind", sans-serif;
+    color: #212529;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+/* Header */
+header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 100;
+    transform: translateX(-50%);
+}
+header .nav-brand {
+    font-size: 36px;
+    color: #fff;
+}
+header .nav-brand i {
+    font-size: 45px;
+    color: #35a22c;
+}
+#navbarPort .nav-item {
+    margin: 0 10px;
+}
+#navbarPort .nav-item .nav-link {
+    color: #fff;
+    transition: all 0.5s;
+}
+#navbarPort .nav-item:hover .nav-link {
+    color: #35a22c;
+}
+#navbarPort .nav-item::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #35a22c;
+    display: block;
+    transition: all 0.5s
+}
+#navbarPort .nav-item:hover::after {
+    width: 100%;
+}
+#navbarPort .nav-item.active .nav-link {
+    color: #35a22c;
+}
+#navbarPort .nav-item.active::after {
+    width: 100%;
+}
+
+/* Carousel */
+.myCarousel .carousel-item {
+    /* Làm cho chiều cao = cửa sổ web */
+    height: 100vh;
+}
+.myCarousel .carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.myCarousel .carousel-caption h5 {
+    font-size: 56px;
+    line-height: 65px;
+}
+.myCarousel .carousel-caption p {
+    font-size: 24px;
+}
+.carousel__thumb {
+    width: 140px;
+    padding: 8px;
+    border-radius: 50%;
+    margin: auto;
+    backdrop-filter: blur(3px);
+    /* background-color: red; */
+}
+.carousel-caption img {
+    width: 140px;
+    border-radius: 50%;
+    margin: auto;
+}
+.myCarousel .carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: none;
+}
+.myCarousel .carousel-indicators li.active {
+    background-color: #35a22c;
+}
+.carousel-indicators {
+    bottom: 10%;
+}
+
+
