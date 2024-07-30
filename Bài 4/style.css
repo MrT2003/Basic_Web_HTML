@@ -28,7 +28,7 @@ header .nav-brand i {
     color: #35a22c;
 }
 #navbarPort .nav-item {
-    margin: 0 10px;
+    margin: 0px 10px;
 }
 #navbarPort .nav-item .nav-link {
     color: #fff;
@@ -96,6 +96,41 @@ header .nav-brand i {
 }
 .carousel-indicators {
     bottom: 10%;
+}
+
+/* Project */
+.project_item {
+    margin-top: 30px;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.13);
+    border: none;
+    cursor: pointer;
+}
+.project_item p {
+    color: #585858;
+}
+.project_item .card-body {
+    border: 1px solid transparent;
+    border-radius: 0 0 1rem 1rem;
+    transition: all 0.5s;
+}
+.project_item:hover .card-body {
+    border-color: #35a22c;
+    border-top-color: transparent;
+}
+.project_item:hover h3 {
+    color: #35a22c;
+}
+.projects .nav-pills .nav-link {
+    color: #1a1d2d;
+    border: 1px solid #1a1d2d;
+    margin: 0 5px;
+}
+.projects .nav-pills .nav-link.active,
+.projects .nav-pills .show > .nav-link {
+    background-color: #35a22c;
+    color: #fff;
+    border-color: #35a22c;
 }
 
 
