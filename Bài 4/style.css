@@ -31,30 +31,30 @@ header .nav-brand i {
 #navbarPort .nav-item {
     margin: 0px 10px;
 }
-/* #navbarPort .nav-item .nav-link {
+#navbarPort .nav-item .nav-link {
     color: #fff;
     transition: all 0.5s;
-} */
-/* #navbarPort .nav-item:hover .nav-link {
+} 
+#navbarPort .nav-item:hover .nav-link {
     color: #35a22c;
-} */
-/* #navbarPort .nav-item::after {
+}
+#navbarPort .nav-item::after {
     content: "";
     width: 0;
     height: 2px;
     background-color: #35a22c;
     display: block;
     transition: all 0.5s
-} */
-/* #navbarPort .nav-item:hover::after {
+}
+#navbarPort .nav-item:hover::after {
     width: 100%;
-} */
-/* #navbarPort .nav-item.active .nav-link {
+}
+#navbarPort .nav-item.active .nav-link {
     color: #35a22c;
-} */
-/* #navbarPort .nav-item.active::after {
+}
+#navbarPort .nav-item.active::after {
     width: 100%;
-} */
+}
 
 /* Carousel */
 .myCarousel .carousel-item {
