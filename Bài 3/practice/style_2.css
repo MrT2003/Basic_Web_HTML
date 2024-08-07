@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family:  "Oswald", sans-serif;
+    color: white;
+}
+header {
+    padding: 26px 0;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+}
+.header_container {
+    width: 75%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_title {
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_container a {
+    text-decoration: none;
+    color: white;
+}
+.header_choice ul {
+    list-style: none;
+    display: inline;
+}
+.header_choice li {
+    display: inline;
+    padding: 0 26px;
+}
+.header_choice a {  
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+.header_title i {
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* Carousel */
+.carousel {
+    background-image: url(../img/home_slider.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel .carousel_container {
+    text-align: center;
+}
+.carousel .carousel_container p {
+    font-size: 25px;
+}
+.carousel .carousel_container h1 {
+    font-size: 75px;
+    line-height: 90px;
+    /* => Làm cho không gian nhỏ lại */
+}
+.carousel .carousel_container button {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #e62b4a;
+    color: white;
+    border: 1px solid #e62b4a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.carousel .carousel_container button:hover {
+    background-color: #af2239;
+    border: 1px solid #af2239;
+}
+.carousel .carousel_container .carousel_scroll {
+    font-size: 30px;
+    margin-top: 50px;
+    animation: arrowDown 1s linear 0s infinite;
+}
+@keyframes arrowDown {
+    from {
+        opacity: 1;
+        transform: translateY();
+    }
+    to {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+}
+/* Service */
+.service {
+    background-color: black;
+    padding: 90px 0;
+    text-align: center;
+}
+.service .service_container {
+    margin: 0 auto;
+    width: 75%;
+    letter-spacing: 1px;
+}
+.service .service_container .service_title p:first-of-type {
+    font-size: 14px;
+    color: #e62b4a;
+    font-weight: 300;
+}
+.service .service_container .service_title p:last-of-type {
+    font-size: 16px;
+    color: #888888;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.service .service_container .service_title h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.service .service_slider {
+    margin-top: 20px;
+}
+/* .service .service_slider .slick_container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+} */
+.service .service_slider .item {
+    background-color: white;
+    width: 214px;
+    height: 230px;
+    color: #848482;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.service .service_slider .item i {
+    font-size: 50px;
+    color: #888888;
+}
+.service .service_slider .item p {
+    font-size: 14px;
+}
+.service .service_slider .item::after {
+    content: "";
+    width: 5px;
+    height: 0;
+    background-color: #e62b4a;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.2s linear;
+}
+.service .service_slider .item:hover:after {
+    height: 100%;
+}
+.service .service_container .service_slider .slick_container .slick-dots li button::before {
+    color: #ffffff;
+    font-size: 14px;
+}
+.service .service_container .service_slider .slick_container .slick-dots li.slick-active button::before {
+    color: red;
+}
+/* blog */
+
+

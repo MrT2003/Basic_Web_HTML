@@ -12,7 +12,6 @@ body {
 /* Header */
 header {
   background-color: transparent;
-  /* background-color: red; */
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 26px 0;
   width: 100%;
@@ -27,7 +26,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: red; */
 }
 .header_logo {
   font-size: 2rem;
@@ -43,7 +41,6 @@ header {
 .header_content a {
   text-decoration: none;
   color: white;
-  /* background-color: red; */
 }
 .header_content li a {
   text-transform: uppercase;
